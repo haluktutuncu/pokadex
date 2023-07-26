@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-----FONT AWESOME CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!----CUSTOM JS-->
+    <script src="app.js" defer></script>
+    <!----FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&family=Prata&display=swap"
+      rel="stylesheet"
+    />
+    <title>pokedex</title>
+  </head>
+  <body class="font-poppins m-0 p-0 box-border w-screen bg-gradient-to-r from-bckgr1 via-bckgr2 to-bckgr3 min-h-screen flex flex-col text-center"></body>
+  <!-----<h1 class="text-5xl font-bold text-white">Pokedex</h1>----->  
+  <div class="flex justify-center items-center"><img class="w-[30%] text-center mt-5" src="/src/img/Pokedex_Logo_1586x.webp" alt="header"></div>
+    <form name="poke-input" class="flex w-s w-full justify-center items-center my-10">
+      <input type="text" id='poke-input'class="text-xl border-0 py-3 px-6 p focus:outline-none bg-white"/>
+      <button id='btn'class="text-xl border-0 py-3 px-6 cursor-pointer bg-white"><i class="fas fa-search"></i></button>
+      
+    </form>
+    
+    <div class="poke-container flex w-full flex-wrap p-12 justify-center">
+     
+    </div>
+  </body>
+</html>
