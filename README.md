@@ -32,3 +32,7 @@ If you wish to contribute to this project, please refer to the CONTRIBUTING.md f
 
 Contact
 If you have any questions or feedback regarding the project, feel free to reach out to me at halukttnc@gmail.com.
+
+IMPORTANT
+This project was copied from bradtraversy's 50projects50days udemy course. 
+More information: https://github.com/bradtraversy/50projects50days/tree/master/pokedex
